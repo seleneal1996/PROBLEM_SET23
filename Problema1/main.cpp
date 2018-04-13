@@ -2,9 +2,9 @@
 
 using namespace std;
 
-void printNTimes(char *msg,int n)
+void printNTimes(char *msg = "\n",int n=1)
 {
-    for(int i=1;i<n;i++)
+    for(int i=0;i<n;++i)
     {
      cout<<msg<<"\n";
     }
@@ -19,5 +19,4 @@ int main()
     cin>>n;
     printNTimes(msg,n);
     cout<<msg<<endl;
-
 }

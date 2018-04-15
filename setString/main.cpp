@@ -4,7 +4,7 @@ using namespace std;
 
 void setString(char **strPtr)
 {
-    int x;
+    int x;//  hhffhghggfd - > 6
     cin>>x;
     if(x<0)
         *strPtr ="Negative!";
